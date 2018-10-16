@@ -1,20 +1,20 @@
 <?php
 // database host
-$db_host   = "localhost:3306";
+$db_host   = "127.0.0.1:3306";
 
 // database name
-$db_name   = "caches";
+$db_name   = "ecshop";
 
 // database username
 $db_user   = "root";
 
 // database password
-$db_pass   = "root";
+$db_pass   = "toor";
 
 // table prefix
 $prefix    = "ecs_";
 
-$timezone    = "PRC";
+$timezone    = "Asia/Shanghai";
 
 $cookie_path    = "/";
 
@@ -25,13 +25,5 @@ $session = "1440";
 define('EC_CHARSET','utf-8');
 
 define('ADMIN_PATH','admin');
-
-define('AUTH_KEY', 'this is a key');
-
-define('OLD_AUTH_KEY', '');
-
-define('API_TIME', '');
-
-define('STORE_KEY','753e8a2cac6fe6cd82ed5b2d5da3559b');
 
 ?>
